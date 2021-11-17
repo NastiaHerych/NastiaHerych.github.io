@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CV Anastasiia Herych</title>
+    <link rel="stylesheet" href="cv.css">
+    <script src = "cv.js"></script>
+    <script src="https://kit.fontawesome.com/5fa6f63c1f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="wrapper">
+    <header class="header">
+        <nav>
+            <ul class="menu">
+                <li><a class="logo" href="#">Herych Anastasiia</a></li>
+                <li>Junior front-end Developer</li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <article class="main">
+        <p class="short">
+        <br>
+        Highly motivated, willing to learn and develop
+        my technical skills. I can highlight such
+        qualities as responsibility, honesty and self-motivation. I have experience with such
+        tecnologies: JavaScript, Java, MySQL and Git.
+        </p>
+
+        <br><h1>Education</h1><br>
+        <p>2019-2023</p>
+        <p>Speciality - Computer science<br>
+            Ivan Franko National Univesity of Lviv<br>
+            Faculty of Electronics and Computer Technologies</p>
+
+        <br><br><h1>Certifications</h1><br>
+        
+
+        <div class="slider">
+            <div class="slide" style="display: block;">
+                Course "Java Developer" (LOGOS IT Academy)<br>
+                Includes: Java, JavaScript, HTML/CSS, MySQL<br><br>
+                <p  class="date">04/2021</p><br>
+
+            </div>
+            
+            <div class="slide">
+                Cambridge English Level 1 Certificate in ESOL International(First)<br><br>
+                <p class="date"> 07/2018</p>
+            </div>
+            
+            <div class="slide">
+                DES-2021 (Ivan Franko National Univesity of Lviv)<br>
+                AIT-2021 (Ivan Franko National Univesity of Lviv)<br><br>
+               <p class="date"> 2021</p>
+            </div>
+
+            <div class="slide">
+                Computer Academy "Step"<br><br>
+                <p class="date"> 04/2018</p>
+            </div>
+            
+            <a class="previous" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            
+            </div>
+            
+            <div class="circler">
+              <span class="circle" onclick="currentSlide(1)"></span> 
+              <span class="circle" onclick="currentSlide(2)"></span> 
+              <span class="circle" onclick="currentSlide(3)"></span> 
+              <span class="circle" onclick="currentSlide(4)"></span> 
+            </div>
+
+
+        <br><br><h1>Hard skills</h1><br>
+        <p>Technologies: HTML/CSS, JavaScript, OOP, Java;<br>
+        basic knowledge: Python, C#;<br><br>
+        Databases: MySQL<br><br>
+        Frameworks: React(basic knowledge), Spring, Maven, Hibernate;<br><br>
+        Version Control: Git, GitHub;<br><br>
+        Tools: Visual Studio Code, Visual Studio 2019, MySQL
+        Workbench, PyCharm, Notepad++, IntelliJIDEA, Eclipse IDE;</p>    
+    </article>
+
+
+    <aside class="aside asideLeft">
+        <img src="cv_herych_photo.jpg" onmouseover="changePhoto2()" onmouseout="changePhoto()" id="photo" alt="CV_photo">
+         <p style="text-align: right; color: #5657a1;"> (Put mouse on photo to change it)</p>
+        <br><br><h1>Contacts</h1><br>
+        <ul class="contacts">
+            <li><i class="fas fa-female"></i> Age: 19</li>
+            <li>&#9742 Phone:
+               <br> +380669061376
+            <br> (Telegram, Viber)</li>
+            <li> <i class="fas fa-envelope"></i> E-mail:
+               <br> nastia.herych@gmail.com</li>
+                <li><i class="fab fa-github"></i> Github 
+               <a href="https://github.com/NastiaHerych"> https://github.com/NastiaHerych </a></li>
+            <li><i class="fab fa-linkedin"></i> LinkedIn:
+               <br> <a href = "https://www.linkedin.com/feed/"> https://www.linkedin.com/in/anastasii
+                a-herych-17821b199/</a></li>
+        </ul>
+    </aside>
+
+    
+    <aside class="aside asideRight">
+    <br><br><br>
+        <h1>Soft skills</h1><br>
+        <button id ="btn1" onclick="toggleElem('soft', 'btn1' )">Click to show</button>
+        <div id="soft" style="display: none;">
+            <ul class="soft">
+                <li> Good communication skills</li>
+                <li> Responsibility</li>
+                <li> Well-organized person</li>
+                <li>Teamworker skills</li>
+                <li> Creativity</li>
+                <li> Willing to learn</li>
+            </ul>
+        </div>
+
+        <br><br><br><h1>Languages</h1><br>
+        <button id ="btn2" onclick="toggleElem('lang', 'btn2' )">Click ho show</button>
+        <div id="lang" style="display: none;">
+        <ul class="languages">
+            <li> Ukrainian - native</li>
+            <br><li>English - upper - intermediate</li>
+            <br><li> Russian - fluent</li>
+        </ul></div>
+
+    </aside>
+   
+    <footer class="footer1">
+        <ul class="footer">
+            <div class="rights"><br> <small>©2021 <strong>Herych Anastasiia</strong>, All Rights Reserved<br></small></a></div>
+        </ul>
+    </footer>
+    </div>
+</body>
+</html>
